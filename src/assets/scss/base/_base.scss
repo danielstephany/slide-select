@@ -1,0 +1,59 @@
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+}
+
+.site-constraint {
+	padding: 100px 0;
+}
+
+.slide-select-ss {
+	border-radius: 16px;
+	border: 1px solid #eee;
+	display: block;
+	width: 100%;
+	margin: 0;
+	padding: 16px;
+} 
+
+.slide-select-selectors {
+	display: block;
+	width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 16px 0;
+	list-style: none;
+	&:after {
+		display: table;
+		content: '';
+		clear: both;
+	}
+}
+
+.slide-selector {
+	display: inline-block;
+	width: 33.3%; 
+	margin: 0;
+	padding: 16px;
+	float: left;
+	cursor: pointer;
+}
+
+.slide-select-slides {
+
+	div {
+		display: none;
+		width: 100%;
+		height: auto;
+		padding: 16px;
+		margin: 0;
+		&.active {
+			display: block;
+		}
+	}
+}
+
+.select-slides {
+
+}
