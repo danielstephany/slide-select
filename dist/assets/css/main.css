@@ -8071,7 +8071,8 @@ button.close {
   width: 33.3%;
   margin: 0;
   padding: 16px;
-  float: left; }
+  float: left;
+  cursor: pointer; }
 
 .slide-select-slides div {
   display: none;

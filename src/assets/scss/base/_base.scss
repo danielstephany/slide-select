@@ -18,25 +18,20 @@
 } 
 
 .slide-select-selectors {
-	display: block;
+	display: flex;
+	justify-content: space-around;
 	width: 100%;
 	height: auto;
 	margin: 0;
 	padding: 16px 0;
 	list-style: none;
-	&:after {
-		display: table;
-		content: '';
-		clear: both;
-	}
 }
 
 .slide-selector {
 	display: inline-block;
-	width: 33.3%; 
+	width: auto; 
 	margin: 0;
 	padding: 16px;
-	float: left;
 	cursor: pointer;
 }
 
