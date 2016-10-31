@@ -23,16 +23,22 @@
 	width: 100%;
 	height: auto;
 	margin: 0;
-	padding: 16px 0;
+	padding: 16px 0; 
 	list-style: none;
 }
 
 .slide-selector {
+	border-radius: 6px;
+	border: 1px solid #eee;
 	display: inline-block;
 	width: auto; 
 	margin: 0;
 	padding: 16px;
 	cursor: pointer;
+	transition: 0.3s linear;
+	&.active {
+		background: #eee;
+	}
 }
 
 .slide-select-slides {
@@ -44,7 +50,7 @@
 		padding: 16px;
 		margin: 0;
 		&.active {
-			display: block;
+			
 		}
 	}
 }

@@ -8055,23 +8055,21 @@ button.close {
   padding: 16px; }
 
 .slide-select-selectors {
-  display: block;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   width: 100%;
   height: auto;
   margin: 0;
   padding: 16px 0;
   list-style: none; }
-  .slide-select-selectors:after {
-    display: table;
-    content: '';
-    clear: both; }
 
 .slide-selector {
   display: inline-block;
-  width: 33.3%;
+  width: auto;
   margin: 0;
   padding: 16px;
-  float: left;
   cursor: pointer; }
 
 .slide-select-slides div {
