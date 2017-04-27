@@ -21,6 +21,14 @@ function slideSelectSS(){
 			$this.siblings('.active').removeClass("active");
 			$this.addClass('active');
 			//fade slide to opacity 0 then slide up(closed).
+			/**
+			 * animation sequence
+			 * get the current hieght of slide-select-slides and set the height the current height and overflow hidden
+			 * fade out the current active div and set to display none
+			 * then display the new div but keep it opacity 0 
+			 * then get the height of the new active div and animate slide-select-slides to the new height and remove overflow hidden
+			 * finaly set the opacity of the active div to 1
+			 */
 			$slideSelectorSS.children('.slide-select-slides').children(".active").stop().animate({
 			    opacity: 0
 			  }, fadetime, function() {
