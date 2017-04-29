@@ -8066,11 +8066,16 @@ button.close {
   list-style: none; }
 
 .slide-selector {
+  border-radius: 6px;
+  border: 1px solid #eee;
   display: inline-block;
   width: auto;
   margin: 0;
   padding: 16px;
-  cursor: pointer; }
+  cursor: pointer;
+  transition: 0.3s linear; }
+  .slide-selector.active {
+    background: #eee; }
 
 .slide-select-slides div {
   display: none;
@@ -8078,7 +8083,5 @@ button.close {
   height: auto;
   padding: 16px;
   margin: 0; }
-  .slide-select-slides div.active {
-    display: block; }
 
 /*# sourceMappingURL=main.css.map */
