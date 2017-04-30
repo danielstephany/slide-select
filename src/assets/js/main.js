@@ -3,7 +3,7 @@
 slideSelectSS();
 
 function slideSelectSS(){
-	var fadetime = 400; 
+	var fadetime = 350; 
 
 	//sets opacity and display settings on slides.
 	$('.slide-select-slides div').css({"opacity": "0", "display": "none"});
